@@ -14,7 +14,7 @@ public static void main (String[] args) throws IOException {
 		if (i%3==0 || i%10==3 ||30 <= i && i < 40){
 			System.out.println("Aho");
 		}
-		else if (i!=i*3){
+		else {
 			System.out.println(i);
 		}	
 	}
