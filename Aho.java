@@ -11,7 +11,7 @@ public static void main (String[] args) throws IOException {
 	int j = Integer.parseInt(st);
 
 	for (int i = 1; i < j; i++) {
-		if (i%3==0 || i%10==3 ||30 <= i && i < 40){
+		if (i%3==0 || Integer.toString(i).contains("3")){
 			System.out.println("Aho");
 		}
 		else {
