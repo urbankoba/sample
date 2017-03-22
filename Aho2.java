@@ -10,23 +10,12 @@ public static void main (String[] args) throws IOException {
 	String st = br.readLine();
 	int j = Integer.parseInt(st);
 	
-	int l = String.valueOf(j).length();
-
-	int x = j >> l;
+	System.out.print(10 >> 2);
 	
-	System.out.println(j);
-	System.out.println(l);
-	
-	System.out.println(x);
-	
-	System.out.println(300 >> 3);
-	System.out.println(3000 >> 3);
-	
-	/*
-	if (j >> l == 3){
+	if (j >> 1 % 10  == 3){
 		System.out.println("aaaaaaaaaaaho");
 		
-	}*/
+	}
 	/*
 	for (int i = 1; i < j; i++) {
 		if (i%3==0 || Integer.toString(i).contains("3")){
